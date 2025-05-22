@@ -8,9 +8,9 @@ from joblib import load
 
 
 #Load best model
-best_models = {'RSRP': load("C:/Users/obouk/OneDrive/Bureau/Best_model_for_RSRP.joblib"),
-               'SINR': load("C:/Users/obouk/OneDrive/Bureau/Best_model_for_SINR.joblib"),
-               'RSRQ': load("C:/Users/obouk/OneDrive/Bureau/Best_model_for_RSRQ.joblib")
+best_models = {'RSRP': load("models/Best_model_for_RSRP.joblib"),
+               'SINR': load("models/Best_model_for_SINR.joblib"),
+               'RSRQ': load("models/Best_model_for_RSRQ.joblib")
                }
 
 #Define error range from Test_RMSE model results
